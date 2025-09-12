@@ -61,4 +61,48 @@
 // Objects and symbols. Objects can hold complex data structures.   Symbols are used to identify objects.
 
 
-//Practice with strings:
+//  Practice with strings:
+//  Quick vocabulary distinction to make:   functions vs. methods.
+//  Functions are "generic".
+//  a method is a function that is bound to a specific data type
+//  functions are usually called by stating the name of the function and what you want it applied to. 
+//  ex. average(dataSet)
+//  whereas a method usually follows what it is being applied to 
+//  ex. text.at(2)
+
+
+//  here are several string methods:
+
+//  length (technically a property not strictly a method)
+
+// let text = "fnaeinfenfwienfiwoenf";
+// console.log(text.length);
+
+//  ways to extract characters from a string:
+//  chatAt():   returns the character at the indicated slot in the string
+
+// text = "Stevie T";
+// console.log(text.charAt(3));
+
+//  charCodeAt():   returns the UTF-16 code of the character at the specified index
+// console.log(text.charCodeAt(3));
+
+//  .at() is a more useful and preferable option to charAt();
+
+// console.log(text.at(-3))
+
+//  .concat():  stands for concatination, allows you to concatinate 2 or more strings
+// let text1 = "Hello";
+// let text2 = "Stevie";
+
+// text3 = text1.concat(" ", text2);     //whatever goes in the ("") will go inbetween the strings 
+// console.log(text3);
+
+// text4 = text1 + " " + text2;
+// console.log(text4)
+
+//  if your want to extact a "substring" you can use three methods:
+//  .slice(): returns a string that starts from the given index and ends before the second index 
+// console.log(text.slice(3,8))      //goes up to but does not include the final number
+
+// if you 
