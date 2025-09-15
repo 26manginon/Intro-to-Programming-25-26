@@ -8,7 +8,7 @@
 // Mathmatical operations in JavaScript is "safe", you can do anything
 
 
-// BigInt, Big INteger, represents Big... Integers...
+// BigInt, Big Integer, represents Big... Integers...
 //"number" as a data type can't store an integer value larger than (2^53 - 1) : 9,007,199,254,740,991
 
 // const sampleBigInt = 123456789123456789123456789n;
@@ -105,4 +105,59 @@
 //  .slice(): returns a string that starts from the given index and ends before the second index 
 // console.log(text.slice(3,8))      //goes up to but does not include the final number
 
-// if you 
+// if you leave out the second value you will get the rest of the string. 
+//  you can also use negative indexing.
+
+// console.log(text.slice(-5));
+
+//  [] this is a notation that allows you to do something silimar to .at(). but it can be somewhat
+//  unpredicatble in javascript
+
+// console.log(text[5]);
+
+//  .substring();   similar to slice but start and end values that are less than 0 are treated as 0 
+
+//  .substr();  where the second number was how long you wanted the string to be;
+//  this is deprecated, so don't use it.
+
+
+//  .toUpperCase() - forever makes the text capitalized 
+console.log(text.toUpperCase());
+//  .toLowerCase()  - forever makes the text lowercase
+console.log(text.toLowerCase());
+
+text = "                       Stevie T.                              "
+console.log(text);
+
+//  .trim() to remove whitespace from both ends of a stirng
+console.log(text.trim());
+
+//  you can also .trimStart() and .trimEnd()
+
+//  .padStart() allows you to add "padding" to the start of a string 
+//  .padEnd()   allos you to add "padding" to the end of a string 
+let newText = "Rams"
+let padded = newText.padStart(10, "*")
+console.log(padded);
+
+//  .repeat()   a method that returns a stirng with a number of copies. This returns a new string 
+//  it does not modify the original. 
+
+
+let newNewText = newText.repeat(4);
+console.log(newNewText);
+
+//  .replace(): replaces a specified value with another value.  Only applied to the first instance of
+//  the matching key phrase
+
+newNewText = newText.replace("Rams", "Badin");
+console.log(newNewText);
+
+//.replaceAll():    replaces all instances of the matching key phrase but doesn't work with 
+//  100% of browsers
+newNewText = newText.replaceAll("Rams", "Badin");
+console.log(newNewText);
+
+//  You also need to be careful when implementing something like a .replaceAll()
+// .replaceAll("he, "she") put spaces .replaceAll(" he ", " she ")
+//  Make sure to always think about special cases 
