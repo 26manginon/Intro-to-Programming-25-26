@@ -219,8 +219,3 @@ if (age > 13 && age < 91){
 //      Returns the first truthy value which was -1
 //  Result of #3
 //      Returns the first truthy value which was 1 
-
-
-
-
-
