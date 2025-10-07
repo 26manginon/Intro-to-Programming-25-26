@@ -60,8 +60,3 @@ num1 /= 4; //this will divide num1 by 4
 //thisIsCamelCase
 //this_is_snake_case
 //number is already programmed into javascript.
-
-
-
-
-
