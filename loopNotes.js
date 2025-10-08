@@ -1,14 +1,87 @@
 //  Loop:   Repearts a chunk of code while a certan condition is true 
 
 //  While Loop: Make a fibonacci generator
-let i = 1;  //  steps to do
+// let i = 0;  //  steps to do
+// let a = 0;
+// let b = 1;
+// let c;
+// console.log(a);
+// console.log(b);
+
+////  10th step of the fibonacci sequence
+// while (i < 8){
+//     c = a + b;
+//     a = b;
+//     b = c;
+//     i = i + 1 
+//     console.log(c);
+// }
+
+//  Make a fibonacci sequence up to a certain value 
+//  All fibonacci sequence smaller than 150 
+
+// let a = 0;
+// let b = 1;
+// let c = 0;
+// console.log(a);
+// console.log(b);
+
+// while (a + b < 150){
+//     c = a + b;
+//     a = b;
+//     b = c;
+//         console.log(c);
+//     }
+
+
+//  Using "if" to control the console.log allows you to stop the last result from printing but 
+//      it still runs the code for one extra loop 
+//  Changing the loop condition to "a + b < 150" should stop the loop from runnning at all
+//      when we don't want it to.
+
+//  Another form of while is the do...while loop.
+
+// let i = 5;
+// do {
+//     console.log(i);
+//     i += 1;
+// } while (i < 3);
+//  A do while loop will always run at least once.
+
+//  Two examples of password verification using loops
+
+//  Traditional loop, password should be "Badin"
+
+// let password = prompt("Please enter your password");
+
+// while(password != "Badin"){
+//     password = prompt("Please enter your password");
+// }
+
+// console.log("Access Granted");
+
+//  do...while version:
+// let password;
+
+// do{
+//      password = prompt("Please enter your password");
+// } while (passowrd != "Badin");
+
+//     console.log("Access Granted");
+
+//  Finally, there is the "for" loop. It is the most commonly used, and it's really just a fancy
+//      way to do a while loop 
+
+
 let a = 0;
 let b = 1;
+let c;
+console.log(a);
+console.log(b);
 
-//  10th step of the fibonacci sequence
-while (i < 10){
-    let c = a + b;
+for (let i = 0; i < 8; i +=1){
+    c = a + b;
     a = b;
     b = c;
-    i = i + 1 
+    console.log(c);
 }
