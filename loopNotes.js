@@ -85,3 +85,6 @@ for (let i = 0; i < 8; i +=1){
     b = c;
     console.log(c);
 }
+
+//  Break and continu:  Advanced loop management. "Break" will escape from the loop completely
+//      "continue" will skip to the end of the current iteration and go back to the top of the loop 
