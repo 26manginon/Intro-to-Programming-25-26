@@ -73,18 +73,44 @@
 //      way to do a while loop 
 
 
-let a = 0;
-let b = 1;
-let c;
-console.log(a);
-console.log(b);
+// let a = 0;
+// let b = 1;
+// let c;
+// console.log(a);
+// console.log(b);
 
-for (let i = 0; i < 8; i +=1){
-    c = a + b;
-    a = b;
-    b = c;
-    console.log(c);
-}
+// for (let i = 0; i < 8; i +=1){
+//     c = a + b;
+//     a = b;
+//     b = c;
+//     console.log(c);
+// }
 
 //  Break and continu:  Advanced loop management. "Break" will escape from the loop completely
 //      "continue" will skip to the end of the current iteration and go back to the top of the loop 
+
+//  Example:   addition only calculator to keep a runing tally
+// let sum = 0;
+// while(true) {
+//     let value = +prompt("Enter a number");
+
+//     if (!value){
+//         break;
+//     }
+
+//     sum += value;
+
+//     console.log("Current total is ", sum);
+// }
+
+// console.log("Program Terminated");
+
+//  continue:   Here's a code that prints only even numbers up to 30
+
+// for(let i = 0; i < 31; i += 1){
+//     if (i % 2 ==0){
+//         continue;
+//     }
+//     console.log(i);
+// }
+
