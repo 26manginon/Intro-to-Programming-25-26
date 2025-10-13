@@ -114,3 +114,28 @@
 //     console.log(i);
 // }
 
+//  1.  Collect the users input number
+//  2.  Console log the number 1 through what the person inputted as their number
+//  3.  Find %3 of first number and find if = 0, if true then check 2nd condition, if false move on to second condition
+//  4.  Also check %5 of the input number and see if it = 0
+//  5.  If step 3 is true, print Fizz, if step 5 is true print Buzz
+//  6.  If both steps and true print Fizz + Buzz or FizBuzz
+
+let a = prompt();
+console.log(a);
+
+let 
+
+
+// let a = 0;
+// let b = 1;
+// let c = 0;
+// console.log(a);
+// console.log(b);
+
+// while (a + b < 150){
+//     c = a + b;
+//     a = b;
+//     b = c;
+//         console.log(c);
+//     }
