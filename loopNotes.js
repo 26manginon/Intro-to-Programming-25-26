@@ -121,21 +121,18 @@
 //  5.  If step 3 is true, print Fizz, if step 5 is true print Buzz
 //  6.  If both steps and true print Fizz + Buzz or FizBuzz
 
-let a = prompt();
-console.log(a);
+// let a = prompt("Enter a number");
 
-let 
+ let b =1;
+if(a % 3 === 0 && a % 5 === 0){
+   console.log("FizzBuzz"); 
+}else if(a % 3 === 0){
+  console.log("Fizz");
+}else if (a % 5 === 0){
+    console.log("Buzz");
+    b += 1;
+}
 
 
-// let a = 0;
-// let b = 1;
-// let c = 0;
-// console.log(a);
-// console.log(b);
 
-// while (a + b < 150){
-//     c = a + b;
-//     a = b;
-//     b = c;
-//         console.log(c);
-//     }
+
