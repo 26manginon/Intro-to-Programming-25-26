@@ -123,16 +123,45 @@
 
 // let a = prompt("Enter a number");
 
- let b =1;
-if(a % 3 === 0 && a % 5 === 0){
-   console.log("FizzBuzz"); 
-}else if(a % 3 === 0){
-  console.log("Fizz");
-}else if (a % 5 === 0){
-    console.log("Buzz");
-    b += 1;
-}
+//  let b =1;
+// if(a % 3 === 0 && a % 5 === 0){
+//    console.log("FizzBuzz"); 
+// }else if(a % 3 === 0){
+//   console.log("Fizz");
+// }else if (a % 5 === 0){
+//     console.log("Buzz");
+//     b += 1;
+// }
 
+//  Reference error
 
+// cosnt a = 5;
+// const b = 10;
 
+// function add(){
+//   let c = a + b;
+//   return c;
+// }
 
+// function print(){
+//   console.log(add());
+// }
+
+// print();
+
+//  syntax error  - missing parentheses
+// function helloWorld(){
+//   console.log("Hello World!");
+// }
+
+// helloWorld();
+
+//  Type Error
+// let a = "Hello";
+// let b = "World";
+
+// console.log(a.concat(b));
+
+// let c = 7;
+
+// console.log(c.concat(a));
