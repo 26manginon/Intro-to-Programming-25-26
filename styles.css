@@ -11,7 +11,12 @@ div {
 /* A class selector will select all elements with a given "class". This is an atribute
     that you give to an HTML element. */
 
-.general-greeting {
+.greeting,
+.unread{
+    background-color:aqua;
+}
+
+.unread {
     color: lightblue;
 }
 
@@ -24,4 +29,14 @@ div {
 
 #response {
     font-size: 40px;
+}
+
+
+.general-greeting.response{
+    font-size: xx-large;
+}
+
+
+.ancestor .contents{
+    color:firebrick
 }
