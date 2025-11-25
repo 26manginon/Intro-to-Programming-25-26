@@ -40,3 +40,25 @@ div {
 .ancestor .contents{
     color:firebrick
 }
+
+.box-one {
+    background-color:red;
+    color: black;
+    padding:20px;
+    height: 200px;
+    width: 200px;
+    border: 30px solid purple;
+    margin:100px;
+}
+
+.box-two {
+    background-color:orange;
+    color: black;
+    padding:20px;
+    height: 100px;
+    width: 100px;
+    border: 30px solid green;
+    margin:60px;
+}
+/* Space 2 elements from each other use margin */
+/* Space 1 element from itself use padding */
