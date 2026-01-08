@@ -37,4 +37,17 @@ for(let i = 1; i <21; i++){
 
 console.log(numbers2);
 
+//  Functions:  A way to package code such that it can be reused later, without
+//      needing to copy and paste. You can also use functions to make decisions
+//      based on what they're being applied to. 
 
+function integerArrayBuilder(target){
+    let numbersArray = []
+    for(let i = 1; i <= target; i +=1){
+        numbersArray.push(i);
+    }
+    return numbersArray;
+}
+
+let numbersUpTo30 = integerArrayBuilder(30);
+let numbersUpTo40 = integerArrayBuilder(40);
